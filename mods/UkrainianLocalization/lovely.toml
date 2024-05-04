@@ -1,0 +1,24 @@
+[manifest]
+version = "1.0"
+dump_lua = false
+priority = 0
+
+[[patches]]
+[patches.pattern]
+target = "game.lua"
+pattern = '''['all2'] = {font = 9, label = "English", key = 'all', omit = true},'''
+position = "after"
+payload = '''
+['ua'] = {font = 10, label = "Українська", key = 'ua', beta = true, button = "Відгук про мову", warning = {'Ця мова все ще знаходиться у Бета-версії. Щоб допомогти','нам її поліпшити, будь ласка, натисніть на кнопку зворотного зв\'язку.', "Клацніть знову, щоб підтвердити"}}'''
+overwrite = false
+match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = "game.lua"
+pattern = '''{file = "resources/fonts/GoNotoCJKCore.ttf", render_scale = self.TILESIZE*10, TEXT_HEIGHT_SCALE = 0.8, TEXT_OFFSET = {x=10,y=-20}, FONTSCALE = 0.1, squish = 1, DESCSCALE = 1},'''
+position = "after"
+payload = '''
+{file = "resources/fonts/Hardpixel-nn51.otf", render_scale = self.TILESIZE*10, TEXT_HEIGHT_SCALE = 0.83, TEXT_OFFSET = {x=10,y=-20}, FONTSCALE = 0.1, squish = 1, DESCSCALE = 1}'''
+overwrite = false
+match_indent = true

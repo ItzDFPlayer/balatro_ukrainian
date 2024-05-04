@@ -4,7 +4,7 @@
 1. Завантажити та закинути в папку гри version.dll від сюди https://github.com/ethangreen-dev/lovely-injector/releases/latest
 2. Закинути файли архіву в %appdata%/Balatro/
 
-##Скріншоти
+## Скріншоти
 
 <div align="center">
 <img src="./screenshots/screenshot1.jpg" width="600"  />

@@ -11,3 +11,6 @@
 <img src="./screenshots/screenshot2.jpg" width="600"  />
 <img src="./screenshots/screenshot3.jpg" width="600"  />
 </div>
+
+## Альтернативний переклад
+https://github.com/darksidecat/balatro_ukrainian

@@ -10,6 +10,7 @@
 <img src="./screenshots/screenshot1.jpg" width="600"  />
 <img src="./screenshots/screenshot2.jpg" width="600"  />
 <img src="./screenshots/screenshot3.jpg" width="600"  />
+<img src="./screenshots/screenshot4.jpg" width="600"  />
 </div>
 
 ## Альтернативний переклад

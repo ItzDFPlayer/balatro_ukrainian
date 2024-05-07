@@ -9,7 +9,7 @@ target = "game.lua"
 pattern = '''['all2'] = {font = 9, label = "English", key = 'all', omit = true},'''
 position = "after"
 payload = '''
-['ua'] = {font = 10, label = "Українська", key = 'ua', beta = true, button = "Відгук про мову", warning = {'Ця мова все ще знаходиться у Бета-версії. Щоб допомогти','нам її поліпшити, будь ласка, натисніть на кнопку зворотного зв\'язку.', "Клацніть знову, щоб підтвердити"}}'''
+['ua'] = {font = 10, label = "Українська", key = 'ua'}'''
 overwrite = false
 match_indent = true
 
@@ -19,6 +19,6 @@ target = "game.lua"
 pattern = '''{file = "resources/fonts/GoNotoCJKCore.ttf", render_scale = self.TILESIZE*10, TEXT_HEIGHT_SCALE = 0.8, TEXT_OFFSET = {x=10,y=-20}, FONTSCALE = 0.1, squish = 1, DESCSCALE = 1},'''
 position = "after"
 payload = '''
-{file = "resources/fonts/Hardpixel-nn51.otf", render_scale = self.TILESIZE*10, TEXT_HEIGHT_SCALE = 0.83, TEXT_OFFSET = {x=10,y=-20}, FONTSCALE = 0.1, squish = 1, DESCSCALE = 1}'''
+{file = "resources/fonts/Born2bSportyFS.otf", render_scale = self.TILESIZE*10, TEXT_HEIGHT_SCALE = 0.83, TEXT_OFFSET = {x=10,y=-20}, FONTSCALE = 0.1, squish = 1, DESCSCALE = 1}'''
 overwrite = false
 match_indent = true
